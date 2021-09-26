@@ -41,7 +41,7 @@ resource "aws_iam_group_membership" "team" {
   name = "tf-testing-group-membership"
 
   users = [
-    "Chizaramekpere_Mba@epam.com",
+    "some_user",
   ]
 
   group = "terraformlovers"
